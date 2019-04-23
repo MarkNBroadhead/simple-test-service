@@ -19,4 +19,9 @@ app.all('/status', (req, res) => {
     res.json({name: name, counter: counter})
 })
 
+app.all('/health', (req, res) => {
+    res.sendStatus(200)
+})
+
+
 app.listen(port, () => console.log(`Simple-test-service started on port ${port} with name ${name}`))
