@@ -1,5 +1,5 @@
 # Simple-test-service
-Simple test service is designed to test network connectivity and load balancing.
+Simple test service to count hits, for testing network connectivity, load balancing.
 
 ## Endpoints
 * GET, PUT, POST, DELETE /
