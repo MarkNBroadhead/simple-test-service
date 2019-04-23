@@ -1,0 +1,20 @@
+{
+  "name": "simple-test-service",
+  "version": "1.0.0",
+  "description": "Simple test service to count hits, for testing network connectivity, load balancing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark N Broadhead",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "foswig": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarkNBroadhead/simple-test-service.git"
+  }
+}
